@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+#Productivity Planner
+
+A webapp for personal productivity using Pomodoro technique.
+
+## Getting started
+
+> Run 'npm install'
+> Run 'npm start'
+
+## How to deliver (DoD)
+
+> Create Feature branch delivery (e.g, 'Feature/#1')
+> Open PR to merge in 'develop'.
+> One reviewer is required.
+> CI steps are mandatory.
+> Then merge are mandatory.
+> Then merge accepted !
