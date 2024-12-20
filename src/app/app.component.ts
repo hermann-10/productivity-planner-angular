@@ -3,6 +3,7 @@ import { environment } from '../environments/environment';
 import { RouterOutlet } from '@angular/router';
 //import { AuthService } from './core/auth.service';
 //import { switchMap } from 'rxjs';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -13,10 +14,9 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
 
    //readonly #authenticationService = inject(AuthService);
+   
    isProductionEnvironment = environment.production;
    firebaseProjectId = environment.firebaseConfig.projectId;
-
-
   //  onLogin(){
   //   const email = "john.doe@gmail.com";
   //   const password = "azerty";
@@ -32,6 +32,8 @@ export class AppComponent {
   //     )
   //     .subscribe((response) => console.log(response));
   //  }
+
+
 
   //  onRegister(){
   //   console.log('onRegister');
