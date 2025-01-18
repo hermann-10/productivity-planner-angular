@@ -29,7 +29,11 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+            ],
             "scripts": []
           },
           "configurations": {
@@ -83,7 +87,7 @@
               "buildTarget": "productivity-planner:build:staging"
             },
             "dev": {
-              "buildTarget": "productivity-planner:build:dev"
+              "buildTarget": "productivity-planner:build:development"
             }
           },
           "defaultConfiguration": "dev"
